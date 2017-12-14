@@ -1,0 +1,21 @@
+File : Website/readme
+Author : Greg Furlich
+
+Comment : This is the GitHub repository of Tools used to edit www.gregfurlich.com made by Greg Furlich. 
+
+=== Contents ===
+
+archive/ :
+	archived html index files when pages are modified using 
+editwebsite.py
+
+bin/ :
+	Custom python tools to modify and archive multiple html
+
+lib/ :
+	ASCII files used to define the common tags across mulitple pages of gregfurlich.com
+
+src/ :
+	Source html index files fo the pages of gregfurlich.com
+
+=== End of Contents ===

@@ -1,0 +1,12 @@
+        <div class="hex">
+                <div class="top"></div>
+                <div class="bottom"></div>
+        </div>
+
+        <a href=".."><p>Home</p></a>
+        <a href="../cv/"><p>CV</p></a>
+        <a href="../research/"><p>Research</p></a>
+        <a href="../hobbies/"><p>Hobbies</p></a>
+        <a href="../projects/"><p>Projects</p></a>
+        <a href="../photography/"><p>Photography</p></a>
+

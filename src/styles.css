@@ -1,0 +1,160 @@
+/*----------------------------------------------------/
+*
+*	Author: Greg Furlich
+*	Date: 17-03-2016
+*	Purpose: Personal Website for Greg Furlich, Display Work, Hobbies and Photography
+*
+*	References: http://www.w3schools.com/html/default.asp
+*
+/----------------------------------------------------*/
+
+/* Body Style */
+body {
+	background-color: white;
+}
+
+/* Header Style */
+header {
+	color: white;
+	background-color: rgb(80,200,120);
+	font-family: "courier new";
+	text-align:center;
+	padding:5px; 
+}
+
+/* Navigation Bar Style */
+nav {
+	line-height:30px;
+	color: white;
+	background-color: rgba(80,200,120,.75);	
+	height: 1000px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	padding:30px;
+	/*position: fixed; /* Set the navbar to fixed position */ 
+
+}
+
+nav p {
+	/*padding: 10px;*/
+	color: white;
+	font-weight: bold;
+	font-family: "courier new";
+	text-align:center; 
+	background-color: rgba(80,200,120,.2); 
+	/*border: black 2px solid;*/
+}
+
+/* Text Section Style */
+section {
+	margin: 0 auto;
+	float:left;
+	padding:10px; 
+}
+
+/* Footer Style */
+footer {
+	background-color: rgb(80,200,120);
+	font-family: "courier new";
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:5px; 
+}
+
+/* Webpage Title */
+h {
+	color: white;
+	background-color: #50C878;
+	font-family: "courier new";
+	font-size: 300%;
+	text-align: center;
+}
+
+hm {
+	color: white;
+	background-color: #50C878;
+	font-family: "courier new";
+	font-size: 200%;
+	text-align: center;
+}
+
+hl {
+	color: white;
+	background-color: #50C878;
+	font-family: "courier new";
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Subtitles */
+
+h1 {
+	color: black;
+	background-color: white;
+	font-family: "courier new";
+	font-weight: bold;
+	/*margin: 30px;*/
+}
+
+/* Paragraphs */
+
+p {
+	color: black;
+	font-family: "courier new";
+	/*margin: 30px;*/
+}
+
+/* Hexagon */
+.hex {
+	margin: 0 auto;
+	clear: both;
+	overflow: bottom;
+	display: block;
+}
+
+.hex img {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.hex .top{
+	border-bottom: 100px solid rgba(80,200,120,.6);
+	border-left: 57px solid transparent;
+	border-right: 57px solid transparent;
+	height: 0;
+	width: 100px;
+}
+.hex .bottom{
+	border-top: 100px solid rgba(80,200,120,.6);
+	border-left: 57px solid transparent;
+	border-right: 57px solid transparent;
+	height: 0;
+	width: 100px;
+	background-color: rgba(80,200,120);
+}
+
+.hex {
+	-ms-transform: scale(.75,.75); 		/* IE 9 */
+	-webkit-transform: scale(.75,.75); 	/* Chrome, Safari, Opera */
+	transform: scale(.75,.75);
+
+	float: center;
+}
+
+/* Links */
+	a:link    {color:green; background-color:transparent; text-decoration:none}
+	a:visited {color:green; background-color:transparent; text-decoration:none}
+	a:hover   {color:green; background-color:transparent; text-decoration:none}
+	a:active  {color:green; background-color:transparent; text-decoration:none}
+
+/* Image Styles */
+
+.img-circle {
+	border-radius: 50%;
+}
+
+/* End of styles.css */
